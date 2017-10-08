@@ -2,11 +2,7 @@
 
 Classifying Iris dataset found at https://www.kaggle.com/uciml/iris with models in Python and R.
 
-# Linear Regression
-
-Worked with small dataset provided by Professor Ng from Stanford's Machine Learning Course to built linear regression in Python from the ground up. All math equations are provided in course lectures and course notes.
-
-**R:**
+## R:
 
 Performed K-nearest neighbors, linear discriminant analysis, and quadratic discriminant analysis on iris data
 
@@ -14,7 +10,7 @@ Performed K-nearest neighbors, linear discriminant analysis, and quadratic discr
 
 2) LDA and QDA (LDA-QDA_iris.R)
 
-***RESULTS:***
+**RESULTS:**
 
 All predictors -> LDA outperformed other methods
 LDA: 96% accuracy, K-NN: 95.7% accuracy, QDA: 94.67% accuracy
@@ -25,7 +21,7 @@ LDA: 81.33% accuracy, K-NN: 77.3% accuracy, QDA: 81.33% accuracy
 Petal.Width and Petal.Length -> KNN and QDA performed identically 
 LDA: 93.33% accuracy, K-NN: 97.33% accuracy, QDA: 97.33% accuracy
 
-**Python:**
+## Python:
 
 Only performed log-reg in Python using Professor Ng's equations from Stanford's Machine Learning course.
 
