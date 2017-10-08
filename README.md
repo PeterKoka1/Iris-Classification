@@ -15,6 +15,7 @@ Performed K-nearest neighbors, linear discriminant analysis, and quadratic discr
 2) LDA and QDA (LDA-QDA_iris.R)
 
 ***RESULTS:***
+
 All predictors -> LDA outperformed other methods
 LDA: 96% accuracy, K-NN: 95.7% accuracy, QDA: 94.67% accuracy
 
