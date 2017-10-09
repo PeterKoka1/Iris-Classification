@@ -28,7 +28,7 @@ LDA: 93.33% accuracy, K-NN: 97.33% accuracy, QDA: 97.33% accuracy
 Only performed log-reg in Python using Professor Ng's equations from Stanford's Machine Learning course. 
 Thus only modelled versicolor vs. setosa using Sepal.Width (multiple preds couldn't converge)
 
-1) Logic Approach (iris_Unvectorized.py)
+1) Logic Approach (log_Unvectorized.py)
 
 2) Matrix Approach (iris_Vectorized.py)
 
