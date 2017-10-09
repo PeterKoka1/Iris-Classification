@@ -10,7 +10,7 @@ Performed K-nearest neighbors, linear discriminant analysis, and quadratic discr
 
 2) LDA and QDA (LDA-QDA_iris.R)
 
-Also performed log-reg out of curiosity to predict versicolor vs. setosa using Sepal.Width 
+Since binary classifier, performed log-reg out of curiosity to predict versicolor vs. setosa using Sepal.Width 
 
 **RESULTS:**
 
