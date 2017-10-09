@@ -33,3 +33,8 @@ glm.preds<-rep("setosa",length(test.y))
 glm.preds[glm.probs>.5]="versicolor"
 table(glm.preds,test.y)
 mean(glm.preds==test.y) # 82.0% accuracy
+
+par(mfrow=c(1,1))
+glm.plot<-data.frame(glm.preds,glm.probs,test.X[,2])
+plot(glm.plot[,3],glm.plot[,2],col=glm.plot[,1], 
+     main="Logistic Regression Predictions", xlab="Sepal Width", ylab="Logistic Function")
