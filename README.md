@@ -26,15 +26,16 @@ LDA: 93.33% accuracy, K-NN: 97.33% accuracy, QDA: 97.33% accuracy
 ## Python:
 
 Only performed log-reg in Python using Professor Ng's equations from Stanford's Machine Learning course. 
-Thus only modelled versicolor vs. setosa using Sepal.Width (multiple preds couldn't converge)
 
 1) Logic Approach (log_Unvectorized.py)
 
 2) Matrix Approach (iris_Vectorized.py)
+
+Gradient Descent algorithm managed to converge on iris data. Coefficient for Sepal.Width (only predictor used in log reg for testing in R) was identical at ~2.5.
 
 ## Technologies Used:
 **Languages**:
 Python, R
 
 **Libraries**:
-Pandas, Numpy, Matplotlib, scipy, caret
+Pandas, Numpy, scipy, caret
